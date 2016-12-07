@@ -1,0 +1,16 @@
+﻿Сборка начата 11/28/2016 2:05:15 AM.
+     1>Проект "C:\Users\Анна\Documents\Visual Studio 2013\Projects\MPIHelloWorld\MPIHelloWorld\MPIHelloWorld.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include\\" /I"C:\Program Files (x86)\Microsoft SDKs\MPI\Include\\x86" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"stdafx.h" /Fp"Debug\MPIHelloWorld.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MPIHelloWorld.cpp
+         MPIHelloWorld.cpp
+     1>c:\users\анна\documents\visual studio 2013\projects\mpihelloworld\mpihelloworld\mpihelloworld.cpp(72): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\анна\documents\visual studio 2013\projects\mpihelloworld\mpihelloworld\mpihelloworld.cpp(78): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Анна\Documents\Visual Studio 2013\Projects\MPIHelloWorld\Debug\MPIHelloWorld.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x86\\" msmpi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Анна\Documents\Visual Studio 2013\Projects\MPIHelloWorld\Debug\MPIHelloWorld.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Анна\Documents\Visual Studio 2013\Projects\MPIHelloWorld\Debug\MPIHelloWorld.lib" /MACHINE:X86 Debug\MPIHelloWorld.obj
+         Debug\stdafx.obj
+         MPIHelloWorld.vcxproj -> C:\Users\Анна\Documents\Visual Studio 2013\Projects\MPIHelloWorld\Debug\MPIHelloWorld.exe
+     1>Сборка проекта "C:\Users\Анна\Documents\Visual Studio 2013\Projects\MPIHelloWorld\MPIHelloWorld\MPIHelloWorld.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.33
